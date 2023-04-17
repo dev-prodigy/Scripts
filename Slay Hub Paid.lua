@@ -4901,7 +4901,7 @@ if BF then
 		end)
 	end)
 	
-	local Main = library:Window("Paid Slay Hub","Blox Fruit 2.0")
+	local Main = library:Window("Paid Slay","Blox Fruit 2.0")
 	local AutoFarmTab = Main:Tab("Auto Farm")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
@@ -14198,7 +14198,7 @@ if OPL then
         end
         return Tabs
     end
-    local win = Flux:Window("Paid Slay Hub", "One Piece legendary", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+    local win = Flux:Window("Paid Slay", "One Piece legendary", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
     local page1 = win:Tab("Wapon Modify", "http://www.roblox.com/asset/?id=6023426915")
     local page2 = win:Tab("Farming", "http://www.roblox.com/asset/?id=6023426915")
     local page3 = win:Tab("TelePort", "http://www.roblox.com/asset/?id=6023426915")
@@ -17256,7 +17256,7 @@ if BOKU then
         end
         return Tabs
     end
-    local win = Flux:Window("Paid Slay Hub", "Boku No Roblox", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+    local win = Flux:Window("Paid Slay", "Boku No Roblox", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
     local Setting = win:Tab("Setting Tab","http://www.roblox.com/asset/?id=6022668888")
     local Main = win:Tab("Main Tab","http://www.roblox.com/asset/?id=6022668888")
     local Stats = win:Tab("Stats Tab","http://www.roblox.com/asset/?id=6022668888")
@@ -20167,7 +20167,7 @@ if RO then
         end
         return Tabs
     end
-    local win = Flux:Window("Paid Slay Hub", "Ro Ghoul", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+    local win = Flux:Window("Paid Slay", "Ro Ghoul", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
     local page = win:Tab("Status Tab", "http://www.roblox.com/asset/?id=6023426915")
     local page1 = win:Tab("Main Tab", "http://www.roblox.com/asset/?id=6023426915")
     local page2 = win:Tab("Stats Tab", "http://www.roblox.com/asset/?id=6023426915")
@@ -21584,7 +21584,7 @@ TextBoxValue.FocusLost:Connect(
     end
     return tabs
 end
-local win = Lava:Window("Paid Slay Hub")
+local win = Lava:Window("Paid Slay")
 local AutoFarm = win:Tab("AutoFarm")
 local Egga = win:Tab("Egg")
 local Misc = win:Tab("Misc")
@@ -24646,7 +24646,7 @@ for i,v in pairs(devilfruit) do
 end
 local real = game.Players.LocalPlayer.UserId
 
-local Main = Flux:Window("Paid Slay Hub", "King Legacy", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+local Main = Flux:Window("Paid Slay", "King Legacy", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
 local AutoFarmTab = Main:Tab("Main", "http://www.roblox.com/asset/?id=6023426915")
 local Main2 = Main:Tab("Main 2", "http://www.roblox.com/asset/?id=6023426915")
 local StatTab = Main:Tab("Stat", "http://www.roblox.com/asset/?id=6023426915")
@@ -25646,7 +25646,7 @@ end)
 end
 if ANS then
     local Flux = loadstring(game:HttpGet"hhttps://raw.githubusercontent.com/dev-prodigy/Scripts/main/library")()
-local win = Flux:Window("Paid Slay Hub", "Anime Fighting Simulator", Color3.fromRGB(255, 110, 48), Enum.KeyCode. RightControl)
+local win = Flux:Window("Paid Slay", "Anime Fighting Simulator", Color3.fromRGB(255, 110, 48), Enum.KeyCode. RightControl)
 local tab = win:Tab("Tab 1", "http://www.roblox.com/asset/?id=6023426915")
 local stats = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.PlayerDataClient)
 local total = function() 
@@ -26410,7 +26410,7 @@ if checkgame[game.PlaceId].Title == "Your Bizarre Adventure" then
         wait(5)
     end
     
-    local Main = library:Window("Paid Slay Hub",LocalPlayer.Name,checkgame[game.PlaceId].Title)
+    local Main = library:Window("Paid Slay",LocalPlayer.Name,checkgame[game.PlaceId].Title)
     library:TitleTab("MAIN")
     local Pg1 = Main:Tab("Game","rbxassetid://3926307971",124, 204)
     local Pg2 = Main:Tab("Character","rbxassetid://3926305904",964, 244)
